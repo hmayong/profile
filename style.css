@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Philosopher|Volkhov|Kaushan+Script&display=swap');
+
+body {
+  font-family: 'Amaranth', serif;
+  background:
+  radial-gradient(circle, transparent 20%, #fff 30%,
+    #fff 80%, transparent 100%, transparent),
+  radial-gradient(circle, transparent 20%, #fff 30%,
+    #fff 80%, transparent 100%, transparent) 50px 50px,
+  linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+  linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+background-color: #fff;
+background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+
+}
+
+h1{
+  color: #6e2142;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 80px;
+}
+
+h2{
+  color: #943855;
+  font-size: 40px;
+}
+
+p {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 30px;
+  color: #e16363;
+}
+
+img{
+  max-width:50%;
+  height: auto;
+  transform: rotate(180deg);
+  border-radius: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #e16363;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.container {
+  width: 1000px;   /* This sets the width */
+  margin: 40px auto; /* This automatically sets left/right margins */
+
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+ul{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+
+.card-white{
+  background: #F7F9FC;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.list-inline > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 5px;
+}
+
